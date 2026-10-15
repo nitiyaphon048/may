@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - นิติญาพร วงษ์เสียงดัง (เมย์)</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Prompt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-purple-50/60 text-gray-700 min-h-screen flex flex-col justify-between selection:bg-purple-200">
+
+    <!-- Header / Navbar -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-purple-100 shadow-sm">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="font-bold text-xl text-purple-700 tracking-wide">NITIYAPHON<span class="text-purple-400">.MAY</span></a>
+            <nav class="hidden md:flex space-x-6 text-sm font-medium text-gray-600">
+                <a href="#about" class="hover:text-purple-600 transition-colors">เกี่ยวกับฉัน</a>
+                <a href="#education" class="hover:text-purple-600 transition-colors">การศึกษา</a>
+                <a href="#experience" class="hover:text-purple-600 transition-colors">ประสบการณ์</a>
+                <a href="#contact" class="hover:text-purple-600 transition-colors">ติดต่อ</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="max-w-4xl mx-auto px-6 py-10 space-y-12 flex-grow">
+
+        <!-- Hero Section -->
+        <section id="about" class="bg-white rounded-3xl p-8 md:p-10 shadow-sm border border-purple-100 relative overflow-hidden">
+            <div class="absolute -top-10 -right-10 w-40 h-40 bg-purple-100 rounded-full blur-2xl opacity-60"></div>
+            <div class="relative z-10 flex flex-col md:flex-row items-center gap-8">
+                <div class="w-32 h-32 md:w-40 md:h-40 rounded-full bg-purple-100 border-4 border-purple-200 flex items-center justify-center text-purple-400 shrink-0 shadow-inner">
+                    <i class="fa-solid fa-user-graduate text-5xl"></i>
+                </div>
+                <div class="space-y-3 text-center md:text-left">
+                    <span class="bg-purple-100 text-purple-700 text-xs font-semibold px-3 py-1 rounded-full uppercase tracking-wider">
+                        นักศึกษา สาธารณสุขศาสตร์
+                    </span>
+                    <h1 class="text-3xl md:text-4xl font-bold text-gray-800">
+                        นางสาวนิติญาพร วงษ์เสียงดัง <span class="text-purple-600 font-normal">(เมย์)</span>
+                    </h1>
+                    <p class="text-gray-600 text-sm md:text-base leading-relaxed">
+                        วิทยาลัยการสาธารณสุขสิรินธร จังหวัดขอนแก่น<br>
+                        คณะสาธารณสุขศาสตร์และสหเวชศาสตร์ สถาบันพระบรมราชชนก กระทรวงสาธารณสุข
+                    </p>
+                    <div class="flex flex-wrap gap-2 pt-2 justify-center md:justify-start">
+                        <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-md"><i class="fa-solid fa-cake-candles mr-1 text-purple-400"></i> อายุ 19 ปี (29 เม.ย. 2550)</span>
+                        <span class="text-xs bg-gray-100 text-gray-600 px-3 py-1 rounded-md"><i class="fa-solid fa-flag mr-1 text-purple-400"></i> สัญชาติ/เชื้อชาติ: ไทย</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Grid 2 Columns: Hobbies & Skills -->
+        <div class="grid md:grid-cols-2 gap-6">
+            <!-- งานอดิเรก -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-purple-100">
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+                    <h2 class="text-lg font-bold text-gray-800">งานอดิเรก</h2>
+                </div>
+                <ul class="space-y-3 text-sm text-gray-600">
+                    <li class="flex items-center space-x-2">
+                        <i class="fa-solid fa-music text-purple-400 w-5"></i>
+                        <span>ฟังเพลง</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <i class="fa-solid fa-book-open text-purple-400 w-5"></i>
+                        <span>อ่านนิยาย</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <i class="fa-solid fa-book text-purple-400 w-5"></i>
+                        <span>อ่านหนังสือ</span>
+                    </li>
+                </ul>
+            </section>
+
+            <!-- ความสามารถพิเศษ -->
+            <section class="bg-white rounded-3xl p-6 shadow-sm border border-purple-100">
+                <div class="flex items-center space-x-3 mb-4">
+                    <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600">
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <h2 class="text-lg font-bold text-gray-800">ความสามารถพิเศษ</h2>
+                </div>
+                <ul class="space-y-3 text-sm text-gray-600">
+                    <li class="flex items-center space-x-2">
+                        <i class="fa-solid fa-circle-dot text-purple-400 w-5"></i>
+                        <span>เล่นเปตอง</span>
+                    </li>
+                    <li class="flex items-center space-x-2">
+                        <i class="fa-solid fa-utensils text-purple-400 w-5"></i>
+                        <span>การทำอาหาร</span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <!-- ประวัติการศึกษา -->
+        <section id="education" class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-purple-100">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <h2 class="text-xl font-bold text-gray-800">ประวัติการศึกษา (Education)</h2>
+            </div>
+            <div class="relative border-l-2 border-purple-100 ml-4 space-y-6">
+                <!-- ปัจจุบัน -->
+                <div class="relative pl-6">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-purple-500 border-4 border-white"></div>
+                    <span class="text-xs bg-purple-100 text-purple-700 font-medium px-2.5 py-0.5 rounded-full">ปัจจุบัน</span>
+                    <h3 class="font-semibold text-gray-800 text-base mt-1">วิทยาลัยการสาธารณสุขสิรินธร จังหวัดขอนแก่น</h3>
+                    <p class="text-sm text-purple-600 font-medium">สาธารณสุข</p>
+                    <p class="text-xs text-gray-500 mt-0.5">คณะสาธารณสุขศาสตร์และสหเวชศาสตร์ สถาบันพระบรมราชชนก</p>
+                    <p class="text-xs text-gray-400 mt-1"><i class="fa-solid fa-location-dot mr-1"></i>90/1 หมู่ 4 ถนนอนามัย ตำบลในเมือง อำเภอเมืองขอนแก่น จังหวัดขอนแก่น 40000</p>
+                </div>
+                <!-- ม.ปลาย -->
+                <div class="relative pl-6">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-purple-200 border-4 border-white"></div>
+                    <h3 class="font-semibold text-gray-800 text-base">มัธยมศึกษาตอนปลาย</h3>
+                    <p class="text-sm text-gray-600">โรงเรียนน้ำโสมพิทยาคม</p>
+                </div>
+                <!-- ม.ต้น -->
+                <div class="relative pl-6">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-purple-200 border-4 border-white"></div>
+                    <h3 class="font-semibold text-gray-800 text-base">มัธยมศึกษาตอนต้น</h3>
+                    <p class="text-sm text-gray-600">โรงเรียนน้ำโสมพิทยาคม</p>
+                </div>
+                <!-- ประถม -->
+                <div class="relative pl-6">
+                    <div class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-purple-200 border-4 border-white"></div>
+                    <h3 class="font-semibold text-gray-800 text-base">ประถมศึกษา</h3>
+                    <p class="text-sm text-gray-600">โรงเรียนบ้านนางัว</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ประสบการณ์ทำงาน -->
+        <section id="experience" class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-purple-100">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600">
+                    <i class="fa-solid fa-briefcase"></i>
+                </div>
+                <h2 class="text-xl font-bold text-gray-800">ประสบการณ์การทำงาน</h2>
+            </div>
+            <div class="bg-purple-50/50 rounded-2xl p-5 border border-purple-100">
+                <h3 class="font-semibold text-purple-900 text-base">พนักงานร้านเช่าชุด</h3>
+                <p class="text-sm text-gray-600 mt-2 font-medium">หน้าที่ความรับผิดชอบ:</p>
+                <ul class="list-disc list-inside text-sm text-gray-600 mt-1 space-y-1">
+                    <span>แนะนำชุดให้ลูกค้า</span>
+                    <span>ดูแล ซัก และทำความสะอาดชุด</span>
+                    <span>ซ่อมแซมชุด</span>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ช่องทางการติดต่อ -->
+        <section id="contact" class="bg-white rounded-3xl p-6 md:p-8 shadow-sm border border-purple-100">
+            <div class="flex items-center space-x-3 mb-6">
+                <div class="w-10 h-10 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600">
+                    <i class="fa-solid fa-address-book"></i>
+                </div>
+                <h2 class="text-xl font-bold text-gray-800">ช่องทางการติดต่อ</h2>
+            </div>
+            <div class="grid md:grid-cols-2 gap-4">
+                <a href="mailto:69202302048@scphkk.ac.th" class="flex items-center p-4 rounded-2xl border border-purple-100 hover:border-purple-300 hover:bg-purple-50/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600 mr-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-regular fa-envelope text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">อีเมล</p>
+                        <p class="text-sm font-medium text-gray-800 break-all">69202302048@scphkk.ac.th</p>
+                    </div>
+                </a>
+                <a href="tel:0925170212" class="flex items-center p-4 rounded-2xl border border-purple-100 hover:border-purple-300 hover:bg-purple-50/50 transition-all group">
+                    <div class="w-12 h-12 rounded-xl bg-purple-100 flex items-center justify-center text-purple-600 mr-4 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-phone text-xl"></i>
+                    </div>
+                    <div>
+                        <p class="text-xs text-gray-400">เบอร์โทรศัพท์</p>
+                        <p class="text-sm font-medium text-gray-800">092-517-0212</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-purple-100 py-6 mt-12 text-center text-xs text-gray-400">
+        <p>© Portfolio - นิติญาพร วงษ์เสียงดัง | Designed with Pastel Purple Style</p>
+      
+    </footer>
+
+</body>
+</html>
